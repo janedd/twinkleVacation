@@ -20,8 +20,8 @@ audio_folder = '/home/pi/Audio'
 photo_folder = '/home/pi/Photos'
 
 # Amazon S3 API
-S3_ACCESS_KEY = 'AKIAJBAVRR3NUK6ALFIA'
-S3_SECRET_KEY = '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'
+S3_ACCESS_KEY = 'xxxxx'
+S3_SECRET_KEY = 'xxxxx'
 
 # simple S3 connection w/ default bucket "grand.tour" [US Std location]
 s3_conn = tinys3.Connection(S3_ACCESS_KEY,S3_SECRET_KEY)
